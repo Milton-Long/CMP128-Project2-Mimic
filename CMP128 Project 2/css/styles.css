@@ -1,7 +1,7 @@
 /*
     Name: Milton Long
     Date created: 3/10/21
-    Date Modified: 3/18/21
+    Date Modified: 3/20/21
 */
 
 html{
@@ -109,45 +109,108 @@ h1, h2{
     /* border-bottom-width: auto ; */
 }
 
-.grid-container{
+#work-container{
+    width: 100%;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.work-item{
+    /* padding: 10px; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    padding: 5px 120px;
+}
+
+.work-item .work-link p{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.work-p{
+    color: whitesmoke;
+    /* background-color: #45567d; */
+    /* text-decoration: none; */
+}
+
+.work-img{
+    /* width: 100%; */
+    width: 200px;
+    height: 150px;
+}
+
+#work1{
+    float: left;
+}
+
+#work2{
+    float: left;
+}
+
+#work3{
+    float: left;
+    clear: right;
+    /* float: right; */
+    /* clear: right; */
+}
+
+#work4{
+    float: left;
+    clear: left;
+    /* margin-left: 0; */
+}
+
+#work5{
+    float: left;
+}
+
+#work6{
+    float: left;
+    /* float: right; */
+}
+/* .grid-container{
     display: grid;
-    /* grid-template-columns: auto auto auto; */
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 
     width: 100%;
-    /* margin-bottom: 4rem; */
-    /* height: 100%; */
-}
+} 
 
 .grid-container a img{
     
     width: 50%;
-    /* height: 100%; */
+    
 }
 
 .grid-item{
-    /* background-color: #45567d; */
+    
     background-color: #303841;
     height: 100%;
-}
+} */
 
 /* #snake-img{
     width: 70%;
     height: 60%;
 } */
 
-.work-img{
+/* .work-img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+} */
 
 
 #contacts-section{
     width: 100%;
     height: 90vh;
     background-color: #303841;
+}
+
+#contacts-header{
+    padding-top: 100px;
 }
 
 #contacts-section > div > p{
@@ -180,14 +243,15 @@ h1, h2{
     transform: translateY(10px);
 }
 
-
-/* #git-logo{
-    color: white;
-} */
+@media screen and (min-width:400px) and (max-width:600px){
+    #work1, #work2, #work3, #work4, #work5, #work6{
+        width: 100%;
+    }
+}
 
 /* 
-at and mobile phone icon credit link
-https://www.iconsdb.com/white-icons/mobile-phone-8-icon.html
+at(@) and smart mobile phone icon credit links
+https://www.iconsdb.com/white-icons/
 
 github icon image from github.com
 */
